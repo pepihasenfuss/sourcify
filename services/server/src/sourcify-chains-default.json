@@ -2386,5 +2386,23 @@
         "apiKeyEnvName": "ALCHEMY_API_KEY"
       }
     ]
+  },
+  "5042002": {
+    "sourcifyName": "ARC-testnet",
+    "supported": true,
+    "fetchContractCreationTxUsing": {
+      "blockscoutApi": {
+        "url": "https://testnet.arcscan.app/"
+      }
+    },
+    "rpc": [
+      {
+        "type": "APIKeyRPC",
+        "url": "https://rpc.quicknode.testnet.arc.network/{API_KEY}",
+        "apiKeyEnvName": "QUICKNODE_API_KEY",
+        "subDomainEnvName": "QUICKNODE_SUBDOMAIN",
+        "traceSupport": "trace_transaction"
+      }
+    ]
   }
 }
